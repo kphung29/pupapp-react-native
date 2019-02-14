@@ -3,9 +3,9 @@ import { Text, View } from 'react-native';
 import { Button } from 'react-native-elements';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import styles from './styles/styles';
-import Mila from './screens/Mila';
-import Doug from './screens/Doug';
-import Chloe from './screens/Chloe';
+import MilaScreen from './screens/MilaScreen';
+import DougScreen from './screens/DougScreen';
+import ChloeScreen from './screens/ChloeScreen';
 import TextCounter from './screens/TextCounter';
 
 
@@ -14,10 +14,10 @@ class HomeScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.homeText}>Puppy App</Text>
+        <Text style={styles.homeText}>Pup App Demo</Text>
         <Button
           title='See Pups!'
-          onPress={() => this.props.navigation.navigate('Mila')}
+          onPress={() => this.props.navigation.navigate('MilaScreen')}
           size={40}
         />
       </View>
@@ -28,9 +28,9 @@ class HomeScreen extends Component {
 const AppNavigator = createStackNavigator(
   {
   Home: HomeScreen,
-  Mila: Mila,
-  Doug: Doug,
-  Chloe: Chloe,
+  MilaScreen: MilaScreen,
+  DougScreen: DougScreen,
+  ChloeScreen: ChloeScreen,
   TextCounter: TextCounter
   },
   {

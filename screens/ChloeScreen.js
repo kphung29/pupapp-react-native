@@ -14,7 +14,7 @@ export default class Chloe extends Component {
         bouncesZoom={true}
       >
         <Image style={styles.image} source={{ uri: "https://i.imgur.com/1833SLc.png" }} />
-          <Text style={styles.text}>Hi! I'm Chloe and I am 2 years old.</Text>
+          <Text style={styles.text}>Hi! I'm Chloe!</Text>
         <Image style={styles.image} source={{ uri: "https://i.imgur.com/ARVzzL6.png" }} />
           <Text style={styles.textTwo}>Treats and toys makes me happy!</Text>
         <Image style={styles.image} source={{ uri: "https://i.imgur.com/XsPHVFw.png" }} />

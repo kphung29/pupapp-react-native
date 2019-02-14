@@ -21,7 +21,7 @@ export default class Mila extends Component {
           <Text style={ {fontWeight: 'bold', fontSize: 55} }>I love sleep and then eat some more!</Text>
         <Button
           title='Next Pup'
-          onPress={() => this.props.navigation.navigate('Doug')}
+          onPress={() => this.props.navigation.navigate('DougScreen')}
           size={40}
         />
       </ScrollView>

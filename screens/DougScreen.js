@@ -14,14 +14,14 @@ export default class Doug extends Component {
         bouncesZoom={true}
       >
         <Image style={styles.image} source={{ uri: "https://i.imgur.com/p4BMVJd.png" }} />
-          <Text style={styles.text}>Hi! I'm Doug and I am 6 years old.</Text>
+          <Text style={styles.text}>Hi! Doug Here!</Text>
         <Image style={styles.image} source={{ uri: "https://i.imgur.com/FnHo0tG.png" }} />
           <Text style={styles.textTwo}>I love stay in bed and cuddle!</Text>
         <Image style={styles.image} source={{ uri: "https://i.imgur.com/sDr8Pa1.png" }} />
           <Text style={{fontWeight: 'bold', fontSize: 55}}>I'm always bundled up!</Text>
         <Button
           title='Next Pup'
-          onPress={() => this.props.navigation.navigate('Chloe')}
+          onPress={() => this.props.navigation.navigate('ChloeScreen')}
           size={40}
         />
       </ScrollView>

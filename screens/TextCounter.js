@@ -12,13 +12,13 @@ export default class TextCounter extends Component {
 
   render() {
     return (
-      <View style={{padding: 10}}>
+      <View style={{ padding: 10 }}>
         <TextInput
-          style={{height: 40}}
+          style={{ height: 40 }}
           placeholder="Example Text Input"
-          onChangeText={(text) => this.setState({text, count: this.state.count + 1})}
+          onChangeText={ (text) => this.setState({ text, count: this.state.count + 1 }) }
         />
-        <Text style={{padding: 10, fontSize: 42}}>
+        <Text style={{ padding: 10, fontSize: 42 }}>
           {this.state.count}
         </Text>
       </View>
